@@ -1,0 +1,88 @@
+.cont {
+    /* border: red 2px solid; */
+    /* padding: 50px; */
+    /* margin: auto; */
+    margin-left: 250px;
+    margin-top: 50px;
+
+}
+.input-cont{ 
+     /* border: solid 2px black;  */
+     padding: 10px;
+    margin: 5px; 
+    /* style="width: 100%; height: 5%;" */
+} 
+
+.input-cont input{
+    border: solid 2px black;
+    width: 65%;
+    height: 8%;
+    text-align: center;
+    font-size: large;
+}
+#flex div{
+    /* border: 1px solid green; */
+    margin: 10px;
+}
+#row1,#row2,#row3,#row4,.row-bottom{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+#row1 div{
+    /* border: 1px solid green; */
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+}
+#row2-space{
+    margin-left: 25px !important;
+}
+#row3-space{
+    margin-left: 50px !important;
+}
+#row4-space{
+    margin-left: 75px !important;
+}
+#row2 div, #row3 div ,#row4 div{
+    /* border: 1px solid green; */
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 35px;
+    padding-top: 15px;
+    text-align: center;
+    margin: 5px;
+
+}
+.row-space{
+    /* border: green 2px solid; */
+    background-color: black; 
+    width: 400px;
+    height: 50px;
+     margin-left: 125px !important; 
+     /* margin: 20px !important; */
+    /* padding-left: 25px; */
+}
+.row-bottom div{
+    border: 2px black solid;
+    width: 75px;
+    height: 30px;
+    padding-top: 15px;
+    margin-left: 50px;
+    text-align: center;    
+}
+.float-left{
+    float:right;
+    margin-top: 1px;
+    /* text-align: right; */
+
+}
+.float-right{
+    margin-top: 25px;
+    float: left; 
+    /* text-align: left; */
+}
